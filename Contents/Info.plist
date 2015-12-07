@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>Facebook</string>
+  <key>CFBundleName</key>
+  <string>Jest</string>
+  <key>DocSetPlatformFamily</key>
+  <string>Jest</string>
+  <key>DashDocSetFamily</key>
+  <string>dashtoc</string>
+  <key>isDashDocset</key>
+  <true/>
+  <key>isJavaScriptEnabled</key>
+  <true/>
+  <key>dashIndexFilePath</key>
+  <string>jest/index.html</string>
+</dict>
+</plist>
