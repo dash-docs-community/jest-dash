@@ -1,5 +1,7 @@
 # [Jest](http://facebook.github.io/jest/) (Painless javascript unit testing. From facebook) documentation for [Dash](http://kapeli.com/dash)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/epitaphmike/flow-dash/badge.svg)](https://snyk.io/test/github/epitaphmike/flow-dash)
+
 ## Installation in Dash
 
 **To install the Jest documentation in Dash, go to:**
