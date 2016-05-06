@@ -1,6 +1,6 @@
 {
   "name": "jest-dash",
-  "version": "1.0.0",
+  "version": "12.0.2",
   "description": "Jest (Painless javascript unit testing. From facebook) Documentation Source for Dash (http://kapeli.com/dash)",
   "repository": {
     "type": "git",

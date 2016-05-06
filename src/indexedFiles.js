@@ -15,17 +15,12 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
-        "name": "tutorial-webpack-integration",
+        "name": "tutorial-async",
         "type": "Guides",
         "toc": "Section"
     },
     {
         "name": "tutorial-jquery",
-        "type": "Guides",
-        "toc": "Section"
-    },
-    {
-        "name": "tutorial-coffeescript",
         "type": "Guides",
         "toc": "Section"
     },
@@ -40,6 +35,16 @@ var indexedFiles = [
         "toc": "Property"
     },
     {
+        "name": "api",
+        "type": "Resource",
+        "toc": "Property"
+    },
+    {
+        "name": "troubleshooting",
+        "type": "Resource",
+        "toc": "Property"
+    },
+    {
         "name": "mock-functions",
         "type": "Resource",
         "toc": "Property"
@@ -51,11 +56,6 @@ var indexedFiles = [
     },
     {
         "name": "timer-mocks",
-        "type": "Resource",
-        "toc": "Property"
-    },
-    {
-        "name": "api",
         "type": "Resource",
         "toc": "Property"
     }
