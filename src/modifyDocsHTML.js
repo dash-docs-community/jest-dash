@@ -15,7 +15,9 @@ indexedFiles.forEach(function(array, index) {
     var $headers = $(headerClasses);
 
     $headers.each(function(index, elem) {
-        $('.edit-github').remove();
+        // Remove "Edit this Page" Button
+        $('.edit-page-link').remove();
+
         var name = $($(elem).contents().get(1)).text();
 
         // TODO: Change "array.toc to somehting more relevant on a page-by-page basis in indexedFiles.js"
@@ -23,11 +25,16 @@ indexedFiles.forEach(function(array, index) {
         $.html();
     });
 
-    $('.nav-main').remove();
-    $('.nav-docs').remove();
-    $('.container').attr('style', 'min-width:inherit;padding-top:0');
-    $('.wrap').attr('style', 'width:inherit;');
-    $('.inner-content').attr('style', 'float:none;margin:auto;');
+    // Remove Header
+    $('.fixedHeaderContainer').remove();
+    // Remove Side Navigation
+    $('.docsNavContainer').remove();
+    // Remove Footer
+    $('.nav-footer').remove();
+    // Clean up size of page
+    $('.sideNavVisible').attr('style', 'min-width:inherit;padding-top:0');
+    $('.docMainWrapper').attr('style', 'width:inherit;');
+    $('.post').attr('style', 'float:none;margin:auto;');
 
     fs.writeFileSync(path, $.html(), 'utf8');
 });

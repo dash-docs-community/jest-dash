@@ -5,7 +5,32 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
-        "name": "tutorial",
+        "name": "using-matchers",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
+        "name": "asynchronous",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
+        "name": "setup-teardown",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
+        "name": "mock-functions",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
+        "name": "more-resources",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
+        "name": "snapshot-testing",
         "type": "Guides",
         "toc": "Section"
     },
@@ -15,49 +40,39 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
+        "name": "tutorial-react-native",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
         "name": "tutorial-async",
         "type": "Guides",
         "toc": "Section"
     },
     {
-        "name": "tutorial-jquery",
+        "name": "timer-mocks",
         "type": "Guides",
         "toc": "Section"
     },
     {
-        "name": "common-js-testing",
-        "type": "Library",
-        "toc": "Property"
+        "name": "manual-mocks",
+        "type": "Guides",
+        "toc": "Section"
     },
     {
-        "name": "automatic-mocking",
-        "type": "Library",
-        "toc": "Property"
+        "name": "webpack",
+        "type": "Guides",
+        "toc": "Section"
     },
     {
-        "name": "api",
-        "type": "Resource",
-        "toc": "Property"
+        "name": "migration-guide",
+        "type": "Guides",
+        "toc": "Section"
     },
     {
         "name": "troubleshooting",
-        "type": "Resource",
-        "toc": "Property"
-    },
-    {
-        "name": "mock-functions",
-        "type": "Resource",
-        "toc": "Property"
-    },
-    {
-        "name": "manual-mocks",
-        "type": "Resource",
-        "toc": "Property"
-    },
-    {
-        "name": "timer-mocks",
-        "type": "Resource",
-        "toc": "Property"
+        "type": "Guides",
+        "toc": "Section"
     }
 ];
 
