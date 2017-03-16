@@ -1,8 +1,7 @@
-# [Jest](http://facebook.github.io/jest/) (Painless javascript unit testing. From facebook) documentation for [Dash](http://kapeli.com/dash)
+# [Jest](http://facebook.github.io/jest/) documentation for [Dash](http://kapeli.com/dash)
+**Painless javascript unit testing from facebook.**
 
-[![Build Status](https://travis-ci.org/epitaphmike/jest-dash.svg?branch=master)](https://travis-ci.org/epitaphmike/jest-dash)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/epitaphmike/flow-dash/badge.svg)](https://snyk.io/test/github/epitaphmike/flow-dash)
+[![Build Status](https://travis-ci.org/epitaphmike/jest-dash.svg?branch=master)](https://travis-ci.org/epitaphmike/jest-dash) [![Known Vulnerabilities](https://snyk.io/test/github/epitaphmike/flow-dash/badge.svg)](https://snyk.io/test/github/epitaphmike/flow-dash)
 
 ## Installation in Dash
 
