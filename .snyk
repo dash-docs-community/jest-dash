@@ -1,9 +1,13 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.7.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:qs:20170213':
     - sqlite3 > node-pre-gyp > request > qs:
         reason: None given
         expires: '2017-04-15T12:39:28.562Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:qs:20170213':
+    - sqlite3 > node-pre-gyp > request > qs:
+        patched: '2017-04-17T13:25:13.344Z'
