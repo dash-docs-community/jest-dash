@@ -10,4 +10,4 @@ ignore:
 patch:
   'npm:qs:20170213':
     - sqlite3 > node-pre-gyp > request > qs:
-        patched: '2017-04-17T13:25:13.344Z'
+        patched: '2017-04-30T22:51:35.896Z'
