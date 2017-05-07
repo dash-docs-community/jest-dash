@@ -12,7 +12,7 @@
     "lodash.flatten": "^3.0.2",
     "sequelize": "^3.24.3",
     "snyk": "^1.28.1",
-    "sqlite3": "^3.1.8"
+    "sqlite3": "3.1.8"
   },
   "keywords": [
     "Jest",

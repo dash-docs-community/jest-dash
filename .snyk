@@ -6,8 +6,12 @@ ignore:
     - sqlite3 > node-pre-gyp > request > qs:
         reason: None given
         expires: '2017-04-15T12:39:28.562Z'
+  'npm:brace-expansion:20170302':
+    - sqlite3 > node-pre-gyp > tar-pack > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-05-30T23:02:26.102Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:qs:20170213':
     - sqlite3 > node-pre-gyp > request > qs:
-        patched: '2017-04-30T22:51:35.896Z'
+        patched: '2017-05-07T18:22:04.027Z'
