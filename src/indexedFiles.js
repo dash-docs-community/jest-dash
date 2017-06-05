@@ -70,6 +70,11 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
+        "name": "testing-frameworks",
+        "type": "Guides",
+        "toc": "Section"
+    },
+    {
         "name": "troubleshooting",
         "type": "Guides",
         "toc": "Section"
